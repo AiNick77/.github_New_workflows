@@ -32,3 +32,6 @@ jobs:
     - name: Lint Ansible Playbook
       run: |
         ansible-lint **/*.yml
+
+
+        ubuntu-latest
