@@ -6,8 +6,6 @@
       ansible.builtin.debug:
         msg: "This task is correct and will pass linting."
 
-    # ISSUE: Using shell instead of ansible.builtin.command or 
-    # ansible.builtin.shell without 'warn: false'
     - name: Run a shell command (linting issue should use 'command' module)
       shell: echo "Hello, World!"
 
