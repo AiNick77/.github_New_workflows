@@ -11,4 +11,4 @@
       shell: echo "Hello, World!"
  
     # ISSUE: Missing `state` parameter in the package task
-    - name: Install a package (linting issue: missing 'state' parameter
+    - name: Install a package (linting issue: missing 'state' parameter)
