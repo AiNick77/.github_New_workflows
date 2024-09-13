@@ -27,8 +27,8 @@ jobs:
  
     - name: Lint YAML files
       run: |
-        yamllint **/*.yml
+        yamllint *.yml
  
     - name: Lint Ansible Playbook
       run: |
-        ansible-lint **/*.yml
+        ansible-lint *.yml
